@@ -1,0 +1,71 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+#  rabbitmq:
+#    virtual-host: /var/lib/rabbitmq/WENEWRS_DEV
+#    host: 106.14.36.118
+#    port: 5672
+#    username: wec
+#    password: wec@2018
+
+  cloud:
+#    inetutils:
+#      preferredNetworks: 10.0
+#      ignoredInterfaces: eth0
+
+#    #设置为本地方式
+#    config:
+#      server:
+#        native:
+#          # 配置文件所在目录，classpath（类路径）和（系统文件路径） file两种
+#          searchLocations: classpath:/config/
+
+    #设置为GIT方式
+    config:
+      server:
+        git:
+          # 配置gitlab仓库的地址，注意，此处必须以.git结尾
+          uri: http://106.14.36.118:8877/config/config-file.git
+          # gitlab仓库地址下的相对地址，可以配置多个，用,分割。
+          search-paths: /wenewrs
+          username: config_mgr
+          password: config_mgr
+
+#    #设置为SVN方式
+#    config:
+#      enabled: true
+#      server:
+#        svn:
+#          uri: http://106.14.61.168:82/svn/project/westore/server/westore-authentication/trunk/
+#          username: username
+#          password: password
+#          default-label: config
+
+eureka:
+  instance:
+    # 设置微服务调用地址为IP优先
+    prefer-ip-address: true
+    # 心跳时间，即服务续约间隔时间（缺省为30s）
+    lease-renewal-interval-in-seconds: 10
+    # 发呆时间，即服务续约到期时间（缺省为90s）
+    lease-expiration-duration-in-seconds: 30
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:28090}/eureka/
+
+# ===========================================================================================
+#日志配置
+logging.level.ROOT: INFO
+logging.level.org.springframework.web: INFO
+logging.level.cn.com.waterelephant: INFO
+# 日志路径
+logging.path: /Users/admin/logs/backup
+logging.file: /Users/admin/logs/wenewrs/${spring.application.name}.log
+# 控制台的日志模式
+logging.pattern.console: '%d{yyyy-MM-dd HH:mm:ss} - [${spring.application.name:},%X{X-B3-TraceId:-},%X{X-B3-SpanId:-},%X{X-Span-Export:-}] - %msg%n'
+# 日志记录模式文件
+logging.pattern.file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] - [${spring.application.name:},%X{X-B3-TraceId:-},%X{X-B3-SpanId:-},%X{X-Span-Export:-}] - %-5level %logger{36} - %msg%n'

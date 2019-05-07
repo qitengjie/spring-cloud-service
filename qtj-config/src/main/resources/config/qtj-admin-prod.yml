@@ -1,0 +1,53 @@
+management:
+#  server:
+#    port: ${server.port}
+#    servlet:
+#      context-path: /
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+eureka:
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 3
+    leaseExpirationDurationInSeconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      startup: ${random.int}
+  client:
+    registryFetchIntervalSeconds: 5
+    service-url:
+      defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:28090}/eureka
+
+spring:
+  cloud:
+    inetutils:
+      preferredNetworks: 10.0
+      ignoredInterfaces: eth0
+  security:
+    user:
+      name: "qtj"
+      password: "123456"
+
+info.tags.security: secured
+
+# ===========================================================================================
+#日志配置
+#logging.config: classpath:/logback.xml
+logging.level.ROOT: INFO
+logging.level.org.springframework: WARN
+logging.level.springfox: WARN
+logging.level.com.netflix: WARN
+logging.level.com.blackelement.open: INFO
+# 日志路径
+logging.path: /Users/admin/logs
+logging.file: /Users/admin/logs/open/${spring.application.name}.log
+# 控制台的日志模式
+logging.pattern.console: '[%-5level][${spring.application.name:}][%date{yyyy-MM-dd HH:mm:ss.SSS}] %logger{96} [%line] - %msg%n'
+# 日志记录模式文件
+logging.pattern.file: '[%-5level][${spring.application.name:}][%date{yyyy-MM-dd HH:mm:ss.SSS}] %logger{96} [%line] - %msg%n'
