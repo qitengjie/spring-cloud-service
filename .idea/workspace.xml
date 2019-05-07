@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d67088c4-1147-4fb8-88f4-75c1ee716841" name="Default Changelist" comment="" />
+    <list default="true" id="d67088c4-1147-4fb8-88f4-75c1ee716841" name="Default Changelist" comment="修改项目名称">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/../qtj-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/qtj-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/qtj-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/qtj-provider/target/" />
-    <ignored path="$PROJECT_DIR$/qtj-provider1/target/" />
-    <ignored path="$PROJECT_DIR$/qtj-admin/target/" />
-    <ignored path="$PROJECT_DIR$/qtj-config/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-config/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-admin/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,73 +26,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qtj-admin/src/main/resources/bootstrap.yml">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.3/eureka-client-1.9.3.jar!/com/netflix/discovery/shared/transport/decorator/RetryableEurekaHttpClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="312">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.3/eureka-client-1.9.3.jar!/com/netflix/discovery/shared/transport/decorator/RetryableEurekaHttpClient.class">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.3/eureka-client-1.9.3.jar!/com/netflix/discovery/shared/transport/decorator/EurekaHttpClientDecorator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="-1272">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
-                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#build#0;n#project#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qtj-eureka/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qtj-eureka/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="672">
               <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qtj-admin/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-boot-admin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="696">
               <caret line="29" selection-start-line="25" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin-dev.yml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/config/qtj-admin-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="576">
               <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
@@ -98,10 +84,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qtj-config/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="216">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="n#build#0;n#project#0;n#!!top" />
               </folding>
@@ -110,7 +96,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qtj-config/src/main/java/com/dasheng/qtj/config/ConfigApplication.java">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/mvnw">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/java/com/dasheng/qtj/config/ConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
@@ -146,45 +150,26 @@
       <find>28092</find>
       <find>8761</find>
       <find>server.port</find>
-      <find>qtj-admin</find>
       <find>RetryableEurekaHttpClient</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>spring-cloud-service</replace>
+      <replace>spring-boot-admin</replace>
+      <replace>spring-cloud-eureka</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/qtj-consumer/src/main/java/com/dasheng/qtj/consumer/QtjConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/qtj-eureka/src/main/java/com/dasheng/qtj/eureka/QtjEurekaApplication.java" />
-        <option value="$PROJECT_DIR$/qtj-provider/src/main/java/com/dasheng/qtj/provider/QtjProviderApplication.java" />
-        <option value="$PROJECT_DIR$/qtj-provider1/src/main/java/com/dasheng/qtj/provider1/QtjProvider1Application.java" />
-        <option value="$PROJECT_DIR$/qtj-eureka/src/main/java/com/dasheng/qtj/eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/qtj-admin/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/qtj-eureka/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/qtj-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin-dev.yml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin-prod.yml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin-test.yml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin-train.yml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/application-test.yml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/java/com/dasheng/qtj/config/ConfigApplication.java" />
-        <option value="$PROJECT_DIR$/qtj-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/qtj-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/application-train.yml" />
-        <option value="$PROJECT_DIR$/qtj-admin/src/main/java/com/dasheng/qtj/admin/AdminApplication.java" />
-        <option value="$PROJECT_DIR$/qtj-admin/src/main/resources/qtj-admin-dev.yml" />
-        <option value="$PROJECT_DIR$/qtj-config/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/qtj-eureka/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/qtj-admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
       </list>
     </option>
   </component>
@@ -201,11 +186,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="qtj-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-cloud-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="qtj-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-cloud-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -220,6 +205,7 @@
     <option name="width" value="1822" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -229,8 +215,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="qtj-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qtj-service" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,30 +231,24 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qtj-config/src/main/resources/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\gitworkspace\beadwallet\qtj-service\qtj-config\src\main\resources\config" />
-      <recent name="D:\gitworkspace\beadwallet\qtj-service\qtj-config\src\main\resources" />
-      <recent name="D:\gitworkspace\beadwallet\qtj-service\qtj-admin\src\main\resources" />
-      <recent name="D:\gitworkspace\beadwallet\qtj-service\qtj-provider1\src\main\resources" />
-      <recent name="D:\gitworkspace\beadwallet\qtj-service\qtj-provider\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dasheng.qtj.provider" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\gitworkspace\beadwallet\qtj-service\qtj-config\src\main\resources\config" />
-      <recent name="D:\gitworkspace\beadwallet\qtj-service\qtj-admin\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -302,8 +282,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="spring-cloud-eureka" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="spring-cloud-eureka" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="qtj-admin" />
+      <module name="spring-boot-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dasheng.qtj.admin.AdminApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -311,7 +338,7 @@
       </method>
     </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="qtj-config" />
+      <module name="spring-cloud-config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dasheng.qtj.config.ConfigApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -319,7 +346,7 @@
       </method>
     </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="qtj-eureka" />
+      <module name="spring-cloud-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dasheng.qtj.eureka.EurekaApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -356,16 +383,17 @@
       <workItem from="1557123552137" duration="5815000" />
       <workItem from="1557129694146" duration="5760000" />
       <workItem from="1557135505570" duration="13219000" />
+      <workItem from="1557211397599" duration="1234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27802000" />
+    <option name="totallyTimeSpent" value="29036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3185699" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32230523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -375,7 +403,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32717392" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3267974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,11 +417,11 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Tail" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.4826087" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.4814815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3484525" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3484525" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -443,19 +471,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qtj-eureka/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/qtj-provider/src/main/java/com/dasheng/qtj/provider/QtjProviderApplication.java" />
-    <entry file="file://$PROJECT_DIR$/qtj-provider/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/qtj-provider1/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/qtj-provider1/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/qtj-provider/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/qtj-consumer/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/qtj-consumer/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/qtj-provider/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/qtj-provider1/src/main/java/com/dasheng/qtj/provider1/QtjProvider1Application.java" />
-    <entry file="file://$PROJECT_DIR$/qtj-provider1/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/qtj-consumer/src/main/java/com/dasheng/qtj/consumer/QtjConsumerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/qtj-admin/mvnw.cmd">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1368" />
       </provider>
@@ -468,7 +484,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qtj-admin/src/test/java/com/dasheng/qtj/admin/QtjAdminApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/qtj-eureka/src/test/java/com/dasheng/qtj/eureka/EurekaApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/test/java/com/dasheng/qtj/eureka/EurekaApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
@@ -480,14 +496,14 @@
         <state relative-caret-position="-936" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-eureka/src/main/resources/banner.txt">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-admin/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
@@ -501,14 +517,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin-test.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/config/qtj-admin-test.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin-train.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/config/qtj-admin-train.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
@@ -516,103 +532,68 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/config/application-dev.yml" />
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/application-prod.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/application-test.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application-test.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="38" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="n#properties#0;n#project#0;n#!!top" />
-            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-admin/HELP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/banner.txt">
+    <entry file="file://$PROJECT_DIR$/qtj-admin/HELP.md" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/application-train.yml">
+    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application-train.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin-prod.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/config/qtj-admin-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="33" column="16" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-admin/src/main/resources/banner.txt">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-admin/mvnw">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/mvnw">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-eureka/src/main/java/com/dasheng/qtj/eureka/EurekaApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/java/com/dasheng/qtj/eureka/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="19" />
@@ -622,7 +603,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-admin/src/main/java/com/dasheng/qtj/admin/AdminApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/dasheng/qtj/admin/AdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
@@ -634,44 +615,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-eureka/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/resources/config/qtj-admin.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/config/qtj-admin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.3/eureka-client-1.9.3.jar!/com/netflix/discovery/shared/transport/decorator/EurekaHttpClientDecorator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="360">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#1025#1026#0" expanded="true" />
@@ -679,24 +639,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-admin/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" selection-start-line="25" selection-end-line="29" />
+        <state relative-caret-position="72">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="672">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-config/src/main/java/com/dasheng/qtj/config/ConfigApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/config/qtj-admin-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.3/eureka-client-1.9.3.jar!/com/netflix/discovery/shared/transport/decorator/RetryableEurekaHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/java/com/dasheng/qtj/config/ConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
@@ -706,17 +691,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qtj-admin/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="696">
+          <caret line="29" selection-start-line="25" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.3/eureka-client-1.9.3.jar!/com/netflix/discovery/shared/transport/decorator/RetryableEurekaHttpClient.class">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1272">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -771,7 +777,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>qtj-eureka</last-edited>
+          <last-edited>spring-cloud-eureka</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

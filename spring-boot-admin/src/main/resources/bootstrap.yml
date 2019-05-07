@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: qtj-admin
+    name: spring-boot-admin
   # dev:开发配置、test:测试配置、prod: 发布配置;
   profiles:
     active: ${config.active:dev}
@@ -18,4 +18,4 @@ spring:
       # 通过注册中心访问配置中心
 #      discovery:
 #        enabled: true
-#        serviceId: qtj-config
+#        serviceId: spring-cloud-config

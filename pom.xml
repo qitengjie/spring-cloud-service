@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.dasheng</groupId>
-    <artifactId>qtj-service</artifactId>
+    <artifactId>spring-cloud-service</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>qtj-service</name>
-    <description>qtj-service</description>
+    <name>spring-cloud-service</name>
+    <description>spring-cloud-service</description>
 
     <modules>
-        <module>qtj-admin</module>
-        <module>qtj-eureka</module>
-        <module>qtj-config</module>
+        <module>spring-boot-admin</module>
+        <module>spring-cloud-eureka</module>
+        <module>spring-cloud-config</module>
     </modules>
 
     <properties>

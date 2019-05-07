@@ -5,11 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/qtj-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/qtj-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/qtj-provider1/pom.xml" />
-        <option value="$PROJECT_DIR$/qtj-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/qtj-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka/pom.xml" />
       </list>
     </option>
   </component>
