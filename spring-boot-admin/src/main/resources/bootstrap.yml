@@ -11,11 +11,26 @@ spring:
 
   cloud:
     config:
-      name: ${spring.application.name}
-      # 通过链接地址访问配置中心
-      uri: http://${config.host:127.0.0.1}:${config.port:28092}
-      enabled: true
+#      name: ${spring.application.name}
+#      # 通过链接地址访问配置中心
+#      uri: http://${config.host:127.0.0.1}:${config.port:28092}
+#      enabled: true
       # 通过注册中心访问配置中心
-#      discovery:
-#        enabled: true
-#        serviceId: spring-cloud-config
+      discovery:
+        enabled: true
+        serviceId: spring-cloud-config
+#      name:
+      profile: ${spring.profiles.active}
+      label: config
+
+eureka:
+  instance:
+    # 设置微服务调用地址为IP优先
+    prefer-ip-address: true
+    # 心跳时间，即服务续约间隔时间（缺省为30s）
+    lease-renewal-interval-in-seconds: 10
+    # 发呆时间，即服务续约到期时间（缺省为90s）
+    lease-expiration-duration-in-seconds: 30
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:28090}/eureka/
