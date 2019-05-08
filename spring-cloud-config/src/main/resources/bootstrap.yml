@@ -16,7 +16,7 @@ spring:
       server:
         native:
           # 配置文件所在目录，classpath（类路径）和（系统文件路径） file两种
-          searchLocations: classpath:/config/{profile}
+          searchLocations: classpath:/config/
 
 eureka:
   instance:
